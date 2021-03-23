@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/home/tahera/Desktop/BLACKJACK/style.css">
+  <title>steroids</title>
+</head>
+<body>
+  <div class="container">
+    <h2>BlackJack</h2>
+      <h3><span id="blackjack-result">lets play</span></h3>
+        <div>
+          <div class="flexbox-blackjack-row-1">
+              <div id="your-box">
+                <h2>You:<span id="your-box-result">0</span></h2>
+              </div>
+              <div id="dealer-box">
+                <h2>Dealer:<span id="dealer-box-result">0</span></h2>
+              </div>
+          </div>
+          <div class="flexbox-blackjack-row-2">
+            <div>
+              <button class="btn-lg btn-primary" mr-2 id="blackjack-hit-button">Hit</button>
+              <button class="btn-lg btn-warning" mr-2  id="blackjack-stand-button">Stand</button> 
+              <button class="btn-lg btn-danger"  mr-2  id="blackjack-deal-button">Deal</button>
+            </div>
+          </div>
+          <div class="flexbox-blackjack-row-3">
+              <table>
+                <tr> 
+                  <td>Wins</td>
+                  <td>Draws</td>
+                  <td>Losses</td>
+                </tr>
+                <tr>
+                  <td><span id="wins">0</span></td>
+                  <td><span id="draws">0</span></td>
+                  <td><span id="losses">0</span></td>
+                </tr>
+              </table>
+          </div>
+        </div>
+  </div>
+  <script src="/home/tahera/Desktop/BLACKJACK/index.js"></script>
+</body>
+</html>
